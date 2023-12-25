@@ -1,0 +1,26 @@
+{
+  "name": "task_2",
+  "version": "1.0.0",
+  "description": "Test automation for Mercedes-Benz technical exercise",
+  "main": "index.js",
+  "scripts": {
+    "setup": "playwright install",
+    "test": "playwright test --headed",
+    "test:chromium": "playwright test --project chromium",
+    "test:safari": "playwright test --project safari"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmprado/mercedes-test.git"
+  },
+  "author": "Fernando Prado",
+  "license": "ISC",
+  "homepage": "https://github.com/fmprado/mercedes-test",
+  "bugs": {
+    "url": "https://github.com/fmprado/mercedes-test/issues"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5"
+  }
+}
